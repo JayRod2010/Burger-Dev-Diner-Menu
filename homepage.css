@@ -23,9 +23,54 @@
     color: #f5f5f5;
     border-radius: 8px;
 }
+.hero-content h1 {
+    max-width: 700px;
+
+    padding: 2rem;
+    background-color: rgba(18,18,18, 0.75)
+    color #f5f5f5;
+    border-radius: 1rem;
+}
 
 .hero-description{
     max-width: 550px;
     margin-bottom: 2rem;
     font-size: 1.1rem;
+}
+/* Brand Intoduction */
+#brand-intro{
+    max-width: 1000px;
+    margin: auto;
+    padding: 4rem 8%;
+    text-align: center;
+}
+#brand-intro h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+#featured-menu{
+    padding: 4rem 8%;
+    background-color: white;
+}
+#featured-menu h2{
+    font-size:3rem;
+}
+.header-two-styles{
+    font-size: 3rem;
+}
+.featured-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 2rem;
+    margin: 2rem;
+}
+.menu-card{
+    flex: 1;
+    padding: 2rem ;
+
+    background-color: #f5f5f5;
+
+    border-bottom: 5px solid #ef121b;
+    border-radius: 8px;
 }
